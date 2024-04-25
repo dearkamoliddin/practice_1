@@ -9,5 +9,11 @@
 </head>
 <body>
 <h1>Kamoliddin</h1>
+
+<ul>
+    {% for car in cars_list %}
+    <li>{{ car.name }}</li>
+    {% endfor %}
+</ul>
 </body>
 </html>

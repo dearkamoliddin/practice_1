@@ -21,5 +21,5 @@ from cars.views import home_view
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('cars.url'))
+    path('cars/', include('cars.url')),
 ]
